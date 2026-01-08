@@ -354,11 +354,11 @@ if selected == "Home":
         """)
 
 if selected == "Mark Attendance":
-    import pages.Mark_Attendance as mark_attendance
-    mark_attendance.show()
+    from pages import Mark_Attendance
+    Mark_Attendance.show()
 elif selected == "Generate QR":
-    import pages.Generate_QR as generate_qr
-    generate_qr.show()
+    from pages import Generate_QR
+    Generate_QR.show()
 elif selected == "View Analysis":
-    import pages.View_Analysis as view_analysis
-    view_analysis.show()
+    from pages import View_Analysis
+    View_Analysis.show()
